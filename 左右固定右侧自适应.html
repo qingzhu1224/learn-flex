@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>两边固定中间自适应1</title>
+<style>
+    *{
+        margin: 0;padding: 0;
+    }
+    .parent{
+        padding: 15px 20px;
+        border: 1px dashed #ff6c60;
+        display: flex;
+    }
+    .left{
+        width: 120px;
+        border: 5px solid #ddd;
+        height: 100px;
+        flex: 1 1 auto;
+    }
+    .center{
+        border: 1px solid red;
+        height: 200px;
+        width: 200px;
+        flex: 0 0 auto;
+        margin: 0px 40px;
+    }
+    .right{
+        width: 100px;
+        border: 5px solid #ddd;
+        height: 200px;
+        flex: 1 1 auto;
+    }
+</style>
+</head>
+<body>
+    <div class="parent">
+        <div class="left">
+           left
+        </div>
+        <div class="center">center</div>
+        <div class="right">
+            hello, right, where are you
+        </div>
+    </div>
+</body>
+</html>
