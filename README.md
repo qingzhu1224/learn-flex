@@ -1,7 +1,7 @@
 弹性布局
 ==============
 
-[参考链接软](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html "Markdown")
+[参考链接](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html "Markdown")
 
 
 任意一个元素可以指定为flex布局，这元素称为容器，子元素称为项目
